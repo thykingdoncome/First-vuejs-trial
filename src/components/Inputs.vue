@@ -22,7 +22,8 @@ input {
   font-weight: 600;
   background-color: #ffffff;
   border: 1px solid #74c5ed;
-  margin: 1.5em 0;
+  margin: 1.5em 0; 
   padding: 1em;
+  outline: 0;
 }
 </style>

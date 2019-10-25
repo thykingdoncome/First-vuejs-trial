@@ -31,8 +31,10 @@
              <Input type="password" placeholder="Password" required/>
             </div>
 
-            <div>
+            <div class="button">
+              <router-link to='/profile'>
               <CustomBtn value="Login" />
+              </router-link>
             </div>
           </form>
 
@@ -42,14 +44,14 @@
         <div class="createAcc">
           <div>
             <span>
-              Forget password?
-              <a href="#">Click here</a>
+              Forgot password?
+               <router-link to='/resetpassword'>Click Here</router-link>
             </span>
           </div>
 
           <div>
             <span>
-              <a href="#">Create Account</a>
+              <router-link to='/createaccount'>Create Account</router-link>
             </span>
           </div>
         </div>
@@ -144,6 +146,10 @@ export default {
   border-radius: 6px;
 }
 
+.button{
+  margin: 2em 0 5em; 
+}
+
 .logoText {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -154,20 +160,6 @@ export default {
   text-align: center;
   line-height: 30px;
 }
-/* 
-.form-wrapper input {
-  border-radius: 3px;
-  width: 400px;
-  height: 60px;
-  font-weight: 600;
-}
-
-.formData input {
-  background-color: #ffffff;
-  border: 1px solid #74c5ed;
-  margin: 1.5em 0;
-  padding: 1em;
-}  */
 
 .createAcc {
   display: flex;

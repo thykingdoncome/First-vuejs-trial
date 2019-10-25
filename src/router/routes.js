@@ -6,9 +6,9 @@ import Account from '../components/CreateAccount/account'
 
 const routes = [
     { path: '/', component: HomePage },
-    { path: '/profile', component: Profile },
     { path: '/resetpassword', component: Reset },
-    { path: '/createaccount', component: Account }
+    { path: '/createaccount', component: Account },
+    { path: '/profile', component: Profile }
 ];
 
 export default routes;

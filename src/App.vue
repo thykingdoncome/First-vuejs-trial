@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-     <nav>
-       <router-link to='/'>Home</router-link>
-        <router-link to='/profile'>Profile</router-link>
-        <router-link to='/reset'>Reset Password</router-link>
-        <router-link to='/createaccount'>Create Account</router-link>
-    </nav>
+   
+       <!-- <router-link to='/'>Home</router-link> -->
+        <!-- <router-link to='/profile'>Profile</router-link> -->
+        <!-- <router-link to='/reset'>Reset Password</router-link> -->
+        <!-- <router-link to='/createaccount'>Create Account</router-link> -->
+   
     <router-view />
    <HomePage />
   </div>
@@ -13,12 +13,12 @@
 
 
 <script>
-// import HomePage from "./components/HomePage";
+
 
 export default {
   name: "app",
   components: {
-    // HomePage
+    
   }
 };
 </script>

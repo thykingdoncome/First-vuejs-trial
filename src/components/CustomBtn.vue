@@ -15,7 +15,6 @@ export default {
   border: 1px solid #76c4f1;
   border-radius: 5px;
   cursor: pointer;
-  margin: 2em 0 5em;
   transition: 0.5s;
   color: white;
   width: 400px;
